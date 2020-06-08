@@ -1,4 +1,4 @@
-FROM ruby:2.6.5
+FROM ruby:2.6.6
 
 RUN apt-get update -qq \
     && apt-get install -y curl apt-transport-https build-essential libpq-dev postgresql-client locales wget vim \
